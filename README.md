@@ -1,2 +1,2 @@
 # myApp02
-demostracion
+demostracion pipeline ya completo basico.
