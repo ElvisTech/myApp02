@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Sonar checking') {
             steps {
-               sh '''sonar-scanner \\
+               sh '''/opt/sonar-scanner/bin/sonar-scanner \\
                  -Dsonar.projectKey=myApp02 \\
                  -Dsonar.sources=. \\
                  -Dsonar.host.url=http://mysonar:9000 \\
