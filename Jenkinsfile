@@ -1,5 +1,6 @@
 pipeline {
     agent any
+    stages {
         stage('Sonar checking') {
             steps {
                sh '''sonar-scanner \\
@@ -8,9 +9,7 @@ pipeline {
                  -Dsonar.host.url=http://mysonar:9000 \\
                  -Dsonar.login=sqp_864e4897339f6cbba874237c22b87b0ed67b75cd'''
             }
-        }
-    stages {
-        stage('PHP deploy app') {
+        }        stage('PHP deploy app') {
             steps {
                 sshPublisher(publishers: [sshPublisherDesc(configName: 'MyLamp', transfers: [sshTransfer(cleanRemote: false, excludes: '', execCommand: '', execTimeout: 120000, flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '', remoteDirectorySDF: false, removePrefix: '', sourceFiles: '**/*.php')], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false)])
             }
