@@ -1,6 +1,4 @@
 <html>
 <h1> Hello World </h1>
-freestyle way 
-echo 'testing...'
-
+prueba desde git, con revision de sonar hasta deploy
 </html>
