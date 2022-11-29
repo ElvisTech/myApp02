@@ -6,7 +6,7 @@ pipeline {
                sh '''/opt/sonar-scanner/bin/sonar-scanner \\
                  -Dsonar.projectKey=myApp02 \\
                  -Dsonar.sources=. \\
-                 -Dsonar.host.url=http://sonar01:9000 \\
+                 -Dsonar.host.url=http://172.17.0.3:9000 \\
                  -Dsonar.login=sqp_864e4897339f6cbba874237c22b87b0ed67b75cd'''
             }
         }        
