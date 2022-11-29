@@ -1,3 +1,8 @@
-<?php
-echo '<h1> hola mundo </h1>'
- 
+<html>
+ <head>
+  <title>PHP Test</title>
+ </head>
+ <body>
+ <?php echo '<p>Hello World</p>'; ?> 
+ </body>
+</html>
