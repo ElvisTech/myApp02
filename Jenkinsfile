@@ -17,7 +17,7 @@ pipeline {
         }
         stage('notify') {
             steps {
-                 slackSend channel: '#curso-devops', message: 'test de despliegue de app desde github ${env.JOB_NAME} '
+                 slackSend channel: '#curso-devops', message: "test de despliegue de app desde github ${env.JOB_NAME} "
             }
         }
     }
