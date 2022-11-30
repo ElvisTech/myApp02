@@ -1,5 +1,5 @@
 # myApp02
-demostracion de un pipeline completo pero basico.
+Demostracion de un pipeline completo pero basico.
 Utiliza:
 Github
 Jenkins
