@@ -5,6 +5,6 @@ Utiliza:
 Github
 Jenkins
 SonarQube
-Apache
+Apache (lamp)
 ---
 
