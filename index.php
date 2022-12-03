@@ -4,7 +4,7 @@
   <title>PHP Test</title>
  </head>
  <body>
- <?php echo '<p>Sin el Mundo</p>'; ?> 
-  Prueba completada!
+ <?php echo '<p>Sin el Mundo</p>'; ?>
+ Prueba completada!
  </body>
 </html>
