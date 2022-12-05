@@ -6,3 +6,4 @@ Github
 Jenkins
 SonarQube
 Lamp
+Nexus
